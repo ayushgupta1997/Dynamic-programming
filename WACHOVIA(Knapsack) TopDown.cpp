@@ -1,6 +1,6 @@
 /*
   author     : Ayush Gupta
-  
+  code like there is no tomorrow;)
 [2018-09-04 20:59]
  
  */
