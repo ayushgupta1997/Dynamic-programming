@@ -11,7 +11,6 @@ long long getdigits(long long x, vector <int> &digit)
     }
 }
 long long digitSum(int idx, int sum, int tight,vector <int> &digit) {
-
     if (idx == -1)
        return sum;
     if (dp[idx][sum][tight] != -1 and tight != 1)
