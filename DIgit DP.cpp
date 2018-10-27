@@ -6,7 +6,7 @@ long long getdigits(long long x, vector <int> &digit)
 {
     while (x)
     {
-        digit.push_back(x%10);
+        digit.push_back(x %10);
         x /= 10;
     }
 }
