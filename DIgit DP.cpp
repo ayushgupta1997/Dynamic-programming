@@ -23,7 +23,7 @@ long long digitSum(int idx, int sum, int tight,vector <int> &digit) {
 
     for (int i = 0; i <= k ; i++) {
         int newTight = (digit[idx] == i)? tight : 0;
-        ret += digitSum(idx-1, sum+i, newTight, digit);
+        ret += digitSum(idx- 1, sum+i, newTight, digit);
     }
 
     if (!tight)
