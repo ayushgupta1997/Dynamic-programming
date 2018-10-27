@@ -16,7 +16,6 @@ long long digitSum(int idx, int sum, int tight,vector <int> &digit) {
        return sum;
     if (dp[idx][sum][tight] != -1 and tight != 1)
         return dp[idx][sum][tight];
-
     long long ret = 0;
 
     int k = (tight)? digit[idx] : 9;
