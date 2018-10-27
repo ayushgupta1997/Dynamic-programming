@@ -2,8 +2,7 @@
 using namespace std;
 typedef long long ll;
 long long dp[20][180][2];
-long long getdigits(long long x, vector <int> &digit)
-{
+long long getdigits(long long x, vector <int> &digit) {
     while (x)
     {
         digit.push_back(x%10);
