@@ -18,7 +18,7 @@ void stolenhouse(int arr[], int n) {
     }
     cout << "The maximum value from stolen house is " << dp[n-1];
 }
-int main() {
+int main(){
     int n;
     cin >> n;
     int arr[n];
