@@ -1,6 +1,5 @@
 //Problem Statement : https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
 #include <bits/stdc++.h>
-
 using namespace std;
 
 void stolenhouse(int arr[], int n) {
