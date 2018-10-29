@@ -1,4 +1,5 @@
 //Problem Statement : https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+// Solution By Ayush Gupta, Arpit Luniya
 #include <bits/stdc++.h>
 
 using namespace std;
